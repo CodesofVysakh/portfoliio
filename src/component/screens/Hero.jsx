@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function Hero() {
-  return (
-    <div>Hero</div>
-  )
+    return (
+		<section id="hero-section" className="wrapper">
+			<div>Hero</div>
+		</section>
+    )
 }
 
-export default Hero
+export default Hero;
