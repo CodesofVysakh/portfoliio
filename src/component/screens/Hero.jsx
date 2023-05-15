@@ -21,11 +21,11 @@ function Hero() {
 
     return (
         <section id="hero-section" className="wrapper">
-            <ul className="divide-y divide-gray-200">
+            <ul className="divide-y divide-gray-200 p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 bg-red">
                 {people.map((person) => (
                     <li key={person.email} className="py-4 flex">
                         <img
-                            className="h-10 w-10 rounded-full"
+                            className="h-5 w-5 rounded-full"
                             src={person.image}
                             alt=""
                         />

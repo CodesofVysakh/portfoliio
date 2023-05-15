@@ -1,15 +1,15 @@
 import React from 'react';
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/images/logo.png';
 
 function Header() {
   return (
     <section id="header-main" className="wrapper">
-        <div class="header-main-left">
-            <img src={Logo} alt="Logox" />
+        <div className="header-main-left h-5 w-5">
+            <img src={Logo} alt="Logo" />
         </div>
         <div class="header-main-right">
             <ul>
-                <li>About</li>
+                <li className="text-white bg-red">About</li>
                 <li>Contact</li>
                 <li>Resume</li>
             </ul>
