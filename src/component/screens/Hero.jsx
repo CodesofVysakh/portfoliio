@@ -1,4 +1,5 @@
 import React from "react";
+import HeroImage from "../../assets/images/hero.png"
 
 function Hero() {
     const people = [
@@ -20,26 +21,21 @@ function Hero() {
     ];
 
     return (
-        <section id="hero-section" className="wrapper">
-            <ul className="divide-y divide-gray-200 p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 bg-red">
-                {people.map((person) => (
-                    <li key={person.email} className="py-4 flex">
-                        <img
-                            className="h-5 w-5 rounded-full"
-                            src={person.image}
-                            alt=""
-                        />
-                        <div className="ml-3">
-                            <p className="text-sm font-medium text-gray-900">
-                                {person.name}
-                            </p>
-                            <p className="text-sm text-gray-500">
-                                {person.email}
-                            </p>
-                        </div>
-                    </li>
-                ))}
-            </ul>
+        <section id="hero-section" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 ">
+            <div className="left">
+				Hello left
+			</div>
+            {/* <div className="right w-3/6">
+				<img src={HeroImage} alt="Hero Image" />
+			</div> */}
+			<div class="relative">
+				<div class="absolute inset-0 bg-gradient-to-r from-blue-9500 to-purple-9500"></div>
+				<img src={HeroImage} alt="Your Image" class="absolute inset-0 object-cover w-full h-full" />
+				<div class="relative z-10 p-8">
+
+				</div>
+			</div>
+
         </section>
     );
 }
