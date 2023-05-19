@@ -21,9 +21,12 @@ function Hero() {
     ];
 
     return (
-        <section id="hero-section" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 h-calc(100vh - 20px)">
+        <section id="hero-section" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 h-screen">
             <div className="left text-white">
-				Hello left
+				
+				<h1 className="text-5xl mb-3">Hi I am Vysakh,</h1>
+				<p className="mb-4">Crafting captivating digital experiences.<br />Yes, I am a Developer.</p>
+				<button class="rounded-full bg-slate-700 shadow-lg shadow-blue-500/50  py-4 px-6">Explore Me</button>
 			</div>
             {/* <div className="right w-3/6">
 				<img src={HeroImage} alt="Hero Image" />
