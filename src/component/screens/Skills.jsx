@@ -15,7 +15,6 @@ function Skills() {
                 <span className='rounded-full bg-fuchsia-900 shadow-lg shadow-green-500/20  py-4 px-6'>React Native</span>
                 <span className='rounded-full bg-fuchsia-900 shadow-lg shadow-green-500/20  py-4 px-6'>Git</span>
                 <span className='rounded-full bg-fuchsia-900 shadow-lg shadow-green-500/20  py-4 px-6'>REST Api</span>
-                <span className='rounded-full bg-fuchsia-900 shadow-lg shadow-green-500/20  py-4 px-6'>Node Js</span>
             </div>
         </section>
     )
